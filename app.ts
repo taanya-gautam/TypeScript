@@ -1,4 +1,4 @@
-let message: string = 'Hello, TypeScript!';
+//let message: string = 'Hello, TypeScript!';
 //console.log(message);
 // create a new heading 1 element
 let heading = document.createElement('h1');
@@ -13,6 +13,8 @@ document.body.appendChild(heading);
 //let variableName: type = value;
 //const constantName: type = value;
 
-let counter: number;
+/*let counter: number;
 counter = 1;
-counter = 'Hello'; // compile error 
+counter = 'Hello'; // compile error */
+
+
