@@ -9,13 +9,26 @@ console.log(add(1,2));
 
 */
 
-function echo(message: string): void {
-    console.log(message.toUpperCase());
-}
+//function echo(message: string): void {
+   // console.log(message.toUpperCase());
+//}
 
-function add(a: number, b: number): number {
+function add(a: any, b: any): any {
     return a + b;
 }
 console.log(add(1,2));
+
+//abstract class
+abstract class Employee {
+    constructor(private firstName: string, private lastName: string) {
+    }
+    abstract getSalary(): number
+    get fullName(): string {
+        return `${this.firstName} ${this.lastName}`;
+    }
+    compensationStatement(): string {
+        return `${this.fullName} makes ${this.getSalary()} a month.`;
+    }
+}
 
 

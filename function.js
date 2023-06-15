@@ -8,9 +8,9 @@
 console.log(add(1,2));
 
 */
-function echo(message) {
-    console.log(message.toUpperCase());
-}
+//function echo(message: string): void {
+// console.log(message.toUpperCase());
+//}
 function add(a, b) {
     return a + b;
 }
